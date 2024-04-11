@@ -1,2 +1,1 @@
-# -NTI
-Kubernetes Project with MongoDB and Mongo Express
+# -ubernetes Project with MongoDB and Mongo Express
