@@ -1,2 +1,2 @@
 # -NTI
-NTI scholarship projects
+Kubernetes Project with MongoDB and Mongo Express
