@@ -35,19 +35,4 @@ spec:
             configMapKeyRef:
               name: mongodb-configmap
               key: database_url   #mongo-service
-
----
-
-apiVersion: v1
-kind: Service
-metadata:
-  name: mongo-express
-spec:
-  selector:
-    app: mongo-express #must be matched with selector of app
-  type: LoadBalancer
-  ports:
-    - protocol: TCP
-      port: 8081
-      targetPort: 8081
-      nodePort: 30000       
+  
